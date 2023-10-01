@@ -1,3 +1,9 @@
+.navbar-brand {
+    padding-left: 5rem;
+}
+.menu {
+    padding-right: 5rem;
+}
 
 .Banner {
     box-sizing: border-box;
@@ -8,14 +14,13 @@
     background: url('../Imagenes/ba1.jpg'), rgba(0, 0, 0, 0.50);
     background-blend-mode: color;
     height: 80vh;
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     color: white;
     font-family: 'arial', sans-serif;
     text-align: end;
-    padding: 0% 11% 10% 40vw;
+    padding: 0% 10% 10% 40vw;
 }
 
 .Banner>h1 {
@@ -57,4 +62,112 @@
 .button2:hover {
     color: rgb(8, 8, 8);
     background-color:  #53ca83;
+}
+
+.card-body {
+padding: 6rem;
+}
+
+.TittleCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1%;
+}
+
+.conoce {
+    font-size: 1rem; 
+    margin: 0%;  
+    padding: 0%;    
+}
+
+.oradores {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.cards {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+}
+
+.card-img-top {
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 0.3%;        
+}
+.card1{
+        display: flex;
+        width: 50vh;
+        flex-direction: column;
+        border: 1px solid rgba(220, 220, 220, 0.911); 
+        border-radius: 0.3em;
+       }
+.card2{
+        display: flex;
+        width: 50vh;
+        flex-direction: column;
+        border: 1px solid rgba(220, 220, 220, 0.911); 
+        border-radius: 0.3em;
+}
+.card3{
+        display: flex;
+        width: 50vh;
+        flex-direction: column;
+        border: 1px solid rgba(220, 220, 220, 0.911); 
+        border-radius: 0.3em;
+}
+
+.card-title{
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.card-text{
+    font-size: small;
+    font-weight:normal;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Javascript {
+    background-color:rgb(241, 184, 27);
+    font-size: small;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 0px 3px 0px 3px;
+   }
+
+.React {
+    background-color:rgb(55, 146, 189);
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    padding: 0px 3px 0px 3px;
+}
+
+.Negocios {
+        background-color:rgb(105, 111, 116);
+        font-size: small;
+        font-weight: bold;
+        color: white;
+        border-radius: 3px;
+        padding: 0px 3px 0px 3px;
+        }
+    
+.Startups {
+            background-color:rgb(182, 19, 41);
+            font-size: small;
+            font-weight: bold;
+            color: white;
+            border-radius: 3px;
+            padding: 0px 3px 0px 3px;
 }
