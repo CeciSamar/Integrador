@@ -1,0 +1,60 @@
+
+.Banner {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    background: url('../Imagenes/ba1.jpg'), rgba(0, 0, 0, 0.50);
+    background-blend-mode: color;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'arial', sans-serif;
+    text-align: end;
+    padding: 0% 11% 10% 40vw;
+}
+
+.Banner>h1 {
+    margin-bottom: 10px;
+    font-size: 38px;
+}
+
+.Banner>div>button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+.button1 {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.button1:hover {
+    color: black;
+    background-color: white;
+}
+
+.button2 {
+    color: white;
+    border: 1px solid #109141;
+    background-color: #109141;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.button2:hover {
+    color: rgb(8, 8, 8);
+    background-color:  #53ca83;
+}
