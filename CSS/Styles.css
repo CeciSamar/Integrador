@@ -268,7 +268,7 @@ input{
     font-family:Arial, Helvetica, sans-serif
     font-size: 18px;
     padding-top: 0px;
-    margin-bottom:  0;
+    margin-bottom: 0;
      }
 
 .form-Nombre{
@@ -276,7 +276,7 @@ input{
     display: flex;
     align-items: center;
     flex-direction: row;
-     }
+       }
 
 ::placeholder {
         font-size: small;
@@ -309,3 +309,31 @@ textarea{
     border: none;
     border-radius: 4px
 }
+
+footer {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.9682247899159664) 0%, rgb(3, 64, 95) 36%, rgb(2, 74, 102) 100%);
+
+}
+
+footer>ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+footer>ul>li {
+    width: 10%;
+    text-align: center;
+}
+
+footer>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 15px;
+}
+
+
