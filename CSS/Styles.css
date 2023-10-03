@@ -5,6 +5,8 @@
     padding-right: 5rem;
 }
 
+/*-----BANNER------ */
+
 .Banner {
     box-sizing: border-box;
     display: flex;
@@ -63,6 +65,8 @@
     color: rgb(8, 8, 8);
     background-color:  #53ca83;
 }
+
+/*-----CARDS------ */
 
 .card-body {
 padding: 6rem;
@@ -171,6 +175,7 @@ padding: 6rem;
             border-radius: 3px;
             padding: 0px 3px 0px 3px;
 }
+/*-----HONOLULU------ */
 
 .Hono {
         display: flex;
@@ -213,6 +218,8 @@ padding: 6rem;
     color: black;
     background-color: white;
 }
+
+/*-----FORM------ */
 
 .TittleForm {
     display: flex;
@@ -266,9 +273,7 @@ input{
 
 .container-Form{
     font-family:Arial, Helvetica, sans-serif
-    font-size: 18px;
-    padding-top: 0px;
-    margin-bottom: 0;
+  
      }
 
 .form-Nombre{
@@ -310,30 +315,39 @@ textarea{
     border-radius: 4px
 }
 
-footer {
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.9682247899159664) 0%, rgb(3, 64, 95) 36%, rgb(2, 74, 102) 100%);
+/*-----FOOTER------ */
 
+footer {
+    background: linear-gradient(90deg, rgba(30, 29, 63, 0.968) 0%, rgb(47, 81, 99) 36%, rgb(30, 93, 117) 100%);
 }
 
 footer>ul {
     display: flex;
-    list-style-type: none;
     justify-content: space-around;
     padding: 10px;
     align-items: center;
     margin-bottom: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    list-style-type: none;
 }
 
 footer>ul>li {
     width: 10%;
     text-align: center;
+    padding: 10px 0px;
+    width: auto;
 }
 
 footer>ul>li>a {
     text-decoration: none;
     color: white;
-    font-family: Arial, Helvetica, sans-serif
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
 }
+
+
 
 
